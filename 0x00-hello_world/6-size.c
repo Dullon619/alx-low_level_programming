@@ -15,11 +15,11 @@ int main(void)
     long int dl = 1000;
     long long lli = 0x023;
 
-    printf("Size of char: %ld byte(s)\n", sizeof(c));
-    printf("Size of an int: %ld byte(s)\n", sizeof(i)); 
-    printf("Size of a long int: %ld byte(s)\n", sizeof(dl));
-    printf("Size of a long long int: %ld byte(s)\n", sizeof(lli));
-    print("Size of a float: %ld byte(s)\n", sizeof(f));
+    printf("Size of char: %d byte(s)\n", sizeof(c));
+    printf("Size of an int: %d byte(s)\n", sizeof(i)); 
+    printf("Size of a long int: %d byte(s)\n", sizeof(dl));
+    printf("Size of a long long int: %d byte(s)\n", sizeof(lli));
+    print("Size of a float: %d byte(s)\n", sizeof(f));
 
 	    
     return (0);
