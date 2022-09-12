@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /* Print char to the screen and return null */
 int main(void)
 {
