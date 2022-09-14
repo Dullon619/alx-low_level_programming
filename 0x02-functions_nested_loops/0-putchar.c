@@ -1,3 +1,4 @@
+#include <main.h>
 #include <unistd.h>
 /* 
  * A custom function what is user to return a value{string} to the screen */
