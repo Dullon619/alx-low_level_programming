@@ -1,15 +1,18 @@
 #include <main.h>
-#include <unistd.h>
-/* 
- * A custom function what is user to return a value{string} to the screen */
-int _putchar(char c)
-{
-	return(write(1, &c,1));
-}
-
+/* Print a message to the screen using a custom function. */
 
 int main(void)
 {
-	_putchar("_putchar \n");
+	_putchar("_");
+	_putchar("p");
+	_putchar("u");
+	_putchar("t");
+	_putchar("c");
+	_putchar("h");
+	_putchar("a");
+	_putchar("r");
+	_putchar("\n");
 	return (0);
+
 }
+
